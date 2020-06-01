@@ -1,5 +1,9 @@
 # Datadog changelog
 
+## 2.3.9
+
+* Fix templateing errors when `apm.useSocketVolume` is true on helm v3.
+
 ## 2.3.8
 
 * Fix templating errors when `clusterAgent.datadog_cluster_yaml` is being used.
